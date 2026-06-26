@@ -1,0 +1,63 @@
+QMainWindow{
+
+    background:#1e1e1e;
+
+}
+
+QFrame#DropArea{
+
+    border:2px dashed #4aa3ff;
+
+    border-radius:10px;
+
+    background:#2a2a2a;
+
+}
+
+QLabel{
+
+    color:white;
+
+    font-size:13px;
+
+}
+
+QPushButton{
+
+    min-height:32px;
+
+    padding-left:18px;
+
+    padding-right:18px;
+
+}
+
+QTableWidget{
+
+    background:#2b2b2b;
+
+    color:white;
+
+    gridline-color:#555;
+
+}
+
+QHeaderView::section{
+
+    background:#3a3a3a;
+
+    color:white;
+
+}
+
+QProgressBar{
+
+    min-height:22px;
+
+}
+
+QProgressBar::chunk{
+
+    background:#3b9cff;
+
+}
